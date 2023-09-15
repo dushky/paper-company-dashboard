@@ -1,0 +1,17 @@
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.pie-chart {
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
