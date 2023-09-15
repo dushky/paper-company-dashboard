@@ -1,0 +1,24 @@
+[
+  { "id": 1, "products": { "1": { "amount": 5 } }, "date": "2023-09-01" },
+  { "id": 2, "products": { "1": { "amount": 110 } }, "date": "2023-09-04" },
+  { "id": 3, "products": { "1": { "amount": 10 } }, "date": "2023-09-07" },
+  { "id": 4, "products": { "1": { "amount": 40 } }, "date": "2023-09-11" },
+  { "id": 5, "products": { "1": { "amount": 37 } }, "date": "2023-09-13" },
+
+  { "id": 6, "products": { "2": { "amount": 10 } }, "date": "2023-09-02" },
+  { "id": 7, "products": { "2": { "amount": 20 } }, "date": "2023-09-10" },
+  { "id": 8, "products": { "2": { "amount": 7 } }, "date": "2023-09-13" },
+
+  { "id": 8, "products": { "3": { "amount": 3 } }, "date": "2023-09-06" },
+  { "id": 9, "products": { "3": { "amount": 5 } }, "date": "2023-09-07" },
+  { "id": 10, "products": { "3": { "amount": 10 } }, "date": "2023-09-13" },
+
+  { "id": 11, "products": { "4": { "amount": 5 } }, "date": "2023-09-02" },
+  { "id": 12, "products": { "4": { "amount": 15 } }, "date": "2023-09-08" },
+  { "id": 13, "products": { "4": { "amount": 3 } }, "date": "2023-09-12" },
+
+  { "id": 14, "products": { "5": { "amount": 4000 } }, "date": "2023-09-03" },
+  { "id": 15, "products": { "5": { "amount": 1000 } }, "date": "2023-09-11" },
+  { "id": 16, "products": { "5": { "amount": 800 } }, "date": "2023-09-12" },
+  { "id": 17, "products": { "5": { "amount": 100 } }, "date": "2023-09-13" }
+]

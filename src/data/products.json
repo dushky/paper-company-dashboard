@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "A4", "price": 12, "amount_sold": 202 },
+  { "id": 2, "name": "A3", "price": 14, "amount_sold": 37 },
+  { "id": 3, "name": "A2", "price": 18, "amount_sold": 14 },
+  { "id": 4, "name": "A1", "price": 23, "amount_sold": 23 },
+  { "id": 5, "name": "envelope", "price": 1, "amount_sold": 5900 }
+]
