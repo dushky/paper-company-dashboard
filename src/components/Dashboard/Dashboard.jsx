@@ -1,8 +1,11 @@
+import Statistics from "../Statistics/Statistics";
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <>
+      <Statistics />
+    </>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
