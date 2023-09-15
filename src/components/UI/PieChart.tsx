@@ -13,7 +13,7 @@ const StyledText = styled('text')(({ theme }) => ({
   fill: theme.palette.text.primary,
   textAnchor: 'middle',
   dominantBaseline: 'central',
-  fontSize: 20,
+  fontSize: 18,
 }));
 
 function PieCenterLabel({ children }) {
@@ -29,7 +29,7 @@ export default function PieChartWithCenterLabel({centerLabel, data}) {
 
   
   return (
-    <PieChart series={[{ data, innerRadius: 80 }]} {...size}>
+    <PieChart series={[{ data, innerRadius: 78 }]} {...size}>
       <PieCenterLabel>{centerLabel}</PieCenterLabel>
     </PieChart>
   );
