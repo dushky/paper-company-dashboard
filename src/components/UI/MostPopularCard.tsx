@@ -16,7 +16,7 @@ export default function OutlinedCard({ title, data }) {
         </Typography>
 
         <Typography variant="body1">
-          sold: {data.amount_sold} pcs
+          Sold: {data.amount_sold} pcs
         </Typography>
 
         <Typography variant="body1">

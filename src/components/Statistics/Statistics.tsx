@@ -39,17 +39,19 @@ const Statistics = () => {
         />
       </div>
 
-      <div className="card">
-        <MostPopularCard title={"Most Popular"} data={mostPopularProduct} />
-      </div>
-      <div className="card">
-        <TotalRevenueCard
-          title={"Total Revenue"}
-          data={{ sold: totalSold, revenue: totalRevenue }}
-        />
-      </div>
-      <div className="card">
-        <MostPopularCard title={"Most Revenue"} data={mostRevenueProduct} />
+      <div className="cards-container">
+        <div className="card">
+          <MostPopularCard title={"Most Popular"} data={mostPopularProduct} />
+        </div>
+        <div className="card">
+          <TotalRevenueCard
+            title={"Total Revenue"}
+            data={{ sold: totalSold, revenue: totalRevenue }}
+          />
+        </div>
+        <div className="card">
+          <MostPopularCard title={"Most Revenue"} data={mostRevenueProduct} />
+        </div>
       </div>
     </div>
   );

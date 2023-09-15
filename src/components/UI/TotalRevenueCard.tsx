@@ -11,11 +11,11 @@ export default function OutlinedCard({ title, data }) {
         <Typography sx={{ fontSize: 16 }} color="text.primary" gutterBottom>
           {title}
         </Typography>
-        <Typography variant="h5" component="div" sx={{ mb: 1.5 }}>
+        <Typography variant="h5" component="div" sx={{ mb: 4.7}}>
           {data.name}
         </Typography>
 
-        <Typography variant="body1" sx={{ mb: 1.5 }}>Sold: {data.sold} pcs</Typography>
+        <Typography variant="body1">Sold: {data.sold} pcs</Typography>
 
         <Typography variant="body1">Revenue: {data.revenue}€</Typography>
       </CardContent>
